@@ -1,0 +1,319 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    padding-bottom: 4px;
+}
+
+body {
+    background-color: #eff2f5;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up {
+    width: 350px;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid grey;
+    margin-top: 90px;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+.sign-up-heading {
+    color: black;
+    margin-left: 22px;
+    margin-top: 30px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.input-set {
+    width: 90%;
+    height: 50px;
+    margin-left: 18px;
+    margin-top: 60px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    background-color: #fff;
+    color: black;
+    font-size: 1.1rem;
+    padding-left: 10px;
+
+}
+
+.input-set::placeholder {
+    padding-left: 10px;
+    font-size: 1.1rem;
+}
+
+.sign-up-btn {
+    color: black;
+    background-color: lightblue;
+    border-radius: 20px;
+    border: 1px solid gray;
+    width: 50%;
+    height: 40px;
+    margin-left: 85px;
+    margin-top: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.sign-up-btn:hover {
+    color: #000;
+    background-color: lightcyan;
+    transition: 1s;
+}
+
+.already-acc {
+    margin-left: 98px;
+    margin-top: 20px;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.already-acc:hover{
+    color: lightblue;
+}
+
+/* quiz Section */
+
+.bgColor {
+    background-color: azure;
+}
+
+.top-bar {
+    width: 100%;
+    height: 80px;
+    background-color: lightblue;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    padding-top: 10px;
+}
+
+.top-bar a {
+    text-decoration: none;
+}
+
+.top-bar a h1 {
+    font-family: openSans;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #231e1e;
+
+}
+
+.login-btn {
+    color: black;
+    background-color: #231e1e;
+    border-radius: 20px;
+    color: lightblue;
+    border: none;
+    width: 20%;
+    height: 50px;
+    font-family: openSans;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 2px;
+}
+
+.login-btn:hover{
+    color: darkseagreen;
+    background-color: #fff;
+}
+
+.Description {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.Description h1 {
+    color: black;
+    margin-top: 50px;
+
+}
+
+.Description p {
+    color: black;
+    font-size: 1rem;
+
+}
+
+.Description h2 {
+    color: black;
+    font-family: openSans;
+    margin-top: 20px;
+}
+
+.html-btn {
+    color: black;
+    background-color: lightblue;
+    border-radius: 20px;
+    color: #000;
+    border: none;
+    width: 60%;
+    height: 80px;
+    font-family: openSans;
+    font-size: 2.7rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 20px;
+}
+
+.html-btn:hover{
+    background-color: white;
+    color: lightseagreen;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border: 3px solid lightblue;
+    background-color: none;
+    border-radius: 25%;
+    position: relative;
+    margin-top: 36px;
+}
+
+.resultShow {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-head {
+    color: lightblue;
+    font-size:1.8rem;
+    font-weight: bold;
+}
+
+#question, #option1, #option2, #option3, #timer{
+    color: #000 !important;
+}
+
+.nextBtn{
+    width: 100px;
+    height: 40px;
+    background-color: lightblue;
+    color: white;
+    font-weight: openSans;
+    font-size: 1.14rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.nextBtn:not(:disabled){
+    color: #000;
+}
+
+.nextBtn:not(:disabled):hover{
+    background-color: #fff;
+    color: lightblue;
+}
+
+.text-alingn{
+text-align: center;
+}
+
+.quiz-per {
+    color: lightblue;
+    font-size: 2rem;
+}
+
+.result-align {
+    margin-left: 34px;
+    margin-top: 19px;
+}
+
+.passed-remarks {
+    color: lightblue;
+}
+
+.fail-remarks {
+    color: tomato;
+}
+
+#timer {
+    color: white;
+    text-align: right;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 380px) {
+    .login-btn {
+        font-size: 0.5rem;
+        /* width: 50px; */
+        border-radius: none;
+    }
+
+    .top-bar a h1 {
+        margin-top: 20px;
+    }
+
+    .js-btn {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 370px){
+    .sign-up{
+        width: 315px;
+    }
+    .input-set{
+        margin-left: 16px;
+    }
+    .sign-up-btn{
+        margin-left: 72px;
+    }
+    .already-acc{
+        margin-left: 79px;
+    }
+    #header{
+        font-size: 22px;
+        margin-top: 23px;
+    }
+    .login-btn{
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .login-btn {
+        font-size: 1rem;
+        /* width: 50px; */
+        border-radius: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
